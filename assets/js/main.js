@@ -73,9 +73,9 @@
     'services.html': ['Услуги', 'var(--m-soft)'],
     'portfolio.html': ['Портфолио', 'var(--y-soft)'],
     'about.html': ['О компании', 'var(--g-soft)'],
-    'privacy.html': ['Документы', 'var(--paper-2)'],
-    'consent.html': ['Документы', 'var(--paper-2)'],
-    'cookies.html': ['Документы', 'var(--paper-2)'],
+    'privacy.html': ['Политика конфиденциальности', 'var(--b-soft)'],
+    'consent.html': ['Согласие на обработку данных', 'var(--b-soft)'],
+    'cookies.html': ['Политика cookie', 'var(--b-soft)'],
   };
   const MARK = '<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="11" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="20" cy="20" r="4.5" fill="currentColor"/><path d="M20 2v36M2 20h36" stroke="currentColor" stroke-width="2"/></svg>';
 
@@ -469,6 +469,20 @@
       setTimeout(() => { b.textContent = label; b.classList.remove('is-done'); }, 1800);
     });
   });
+
+  /* ---------- Documents: table of contents scroll-spy ---------- */
+  const toc = $('[data-toc]');
+  if (toc) {
+    const tl = $$('a', toc);
+    const secs = tl.map((l) => document.getElementById(l.getAttribute('href').slice(1)));
+    const spyDoc = () => {
+      let idx = 0;
+      secs.forEach((sec, i) => { if (sec && sec.getBoundingClientRect().top < window.innerHeight * 0.3) idx = i; });
+      tl.forEach((l, i) => l.classList.toggle('is-active', i === idx));
+    };
+    window.addEventListener('scroll', spyDoc, { passive: true });
+    spyDoc();
+  }
 
   /* ---------- Heading reveal ---------- */
   const revealEls = $$('[data-reveal]');

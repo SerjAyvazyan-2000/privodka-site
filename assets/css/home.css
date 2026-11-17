@@ -124,7 +124,8 @@
 @media (max-width: 960px) {
   .hero-grid { grid-template-rows: none; }
   .hero-title, .hero-visual, .hero-form, .hero-lead, .color-bar { grid-row: auto; }
-  .hero-visual { grid-column: 1 / -1; max-height: none; width: min(100%, 460px); justify-self: center; margin: -1.5rem 0 -2.5rem; }
+  .hero-visual { grid-column: 1 / -1; max-height: none; width: min(100%, 460px); justify-self: center; margin: 0.5rem 0 0.5rem; }
+  .hero-stamp { right: -2%; top: -4%; }
   .hero-lead { grid-column: 1 / -1; }
   .hero-form { grid-column: 1 / -1; transform: none; max-width: 560px; margin: 0; }
   .hero-title { order: 1; } .hero-visual { order: 2; } .hero-lead { order: 3; } .hero-form { order: 4; } .color-bar { order: 5; }
