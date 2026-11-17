@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Портфолио — Приводка, маркетинговое агентство</title>
+  <meta name="description" content="Кейсы агентства «Приводка»: SMM, таргет, контекстная реклама, SEO, брендинг и сайты. Задачи, решения и цифры.">
+  <meta name="theme-color" content="#F3F4F1">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Портфолио агентства «Приводка»">
+  <meta property="og:description" content="Четыре краски. Один чёткий результат. Стратегия, реклама и сайты в одной системе.">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/Unbounded.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function (d) {
+      d.classList.add('js');
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      try { if ('scrollRestoration' in history) history.scrollRestoration = 'manual'; } catch (e) {}
+      try {
+        var v = sessionStorage.getItem('pv-veil');
+        if (v && !reduce) { v = JSON.parse(v); d.classList.add('veil-in'); d.setAttribute('data-veil-title', v.t); d.style.setProperty('--veil-bg', v.bg); }
+        sessionStorage.removeItem('pv-veil');
+        if (d.hasAttribute('data-intro') && !v && !reduce && !sessionStorage.getItem('pv-intro')) d.classList.add('intro-on');
+      } catch (e) {}
+      setTimeout(function () { d.classList.add('is-ready'); }, 4000); /* safety net */
+    })(document.documentElement);
+  </script>
+</head>
+<body class="page-inner page-portfolio">
+
+<span id="page-top" class="page-top" aria-hidden="true"></span>
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+
+
+<header class="site-header" data-header>
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Приводка — на главную">
+      <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="11" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="20" cy="20" r="4.5" fill="currentColor"/><path d="M20 2v36M2 20h36" stroke="currentColor" stroke-width="2.5"/></svg>
+      <span class="logo-word">Приводка</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Основное меню">
+      <ul>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="portfolio.html" aria-current="page">Портфолио</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="about.html#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <a class="btn btn-ink header-cta" href="#brief">Обсудить проект</a>
+
+    <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-menu" data-burger>
+      <span class="burger-lines" aria-hidden="true"><span></span><span></span></span>
+      <span class="visually-hidden" data-burger-label>Открыть меню</span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" data-menu aria-hidden="true" role="dialog" aria-modal="true" aria-label="Меню">
+  <div class="mobile-menu-sheet">
+    <nav aria-label="Мобильное меню">
+      <ul class="mobile-menu-list">
+        <li><a href="index.html"><span class="ink-dot ink-c" aria-hidden="true"></span>Главная</a></li>
+        <li><a href="services.html"><span class="ink-dot ink-m" aria-hidden="true"></span>Услуги</a></li>
+        <li><a href="portfolio.html" aria-current="page"><span class="ink-dot ink-y" aria-hidden="true"></span>Портфолио</a></li>
+        <li><a href="about.html"><span class="ink-dot ink-g" aria-hidden="true"></span>О компании</a></li>
+        <li><a href="about.html#contacts"><span class="ink-dot ink-b" aria-hidden="true"></span>Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-foot">
+      <a class="btn btn-ink btn-wide" href="#brief" data-menu-close>Обсудить проект</a>
+      <p class="mobile-menu-contacts">
+        <a href="tel:+79990000000">+7 999 000-00-00</a>
+        <a href="mailto:hello@privodka.ru">hello@privodka.ru</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="page-hero" aria-labelledby="page-title">
+    <div class="proof-marks" aria-hidden="true"><span class="crop crop-tl"></span><span class="crop crop-tr"></span></div>
+    <div class="container page-hero-grid">
+      <nav class="crumbs" data-enter style="--d:0" aria-label="Хлебные крошки"><ol><li><a href="index.html">Главная</a></li><li aria-current="page">Портфолио</li></ol></nav>
+      <h1 class="page-title register" id="page-title" data-register data-enter style="--d:1">
+        <span class="register-plate plate-y" aria-hidden="true">Портфолио</span>
+        <span class="register-plate plate-m" aria-hidden="true">Портфолио</span>
+        <span class="register-plate plate-c" aria-hidden="true">Портфолио</span>
+        <span class="register-key">Портфолио</span>
+      </h1>
+      <p class="page-lead" data-enter style="--d:2">Проекты, в которых реклама начала приносить заявки. В каждом кейсе — задача, что мы сделали и цифры до и после. Кейсы шаблона демонстрационные: замените их на свои.</p>
+      <div class="page-hero-aside" data-enter style="--d:3">
+        <p>Хотите такой же результат?</p>
+        <a class="btn btn-magenta" href="#brief">Обсудить проект</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Featured case with before/after ============ -->
+  <section class="section featured" aria-labelledby="featured-title">
+    <div class="container featured-grid">
+      <div class="featured-copy">
+        <h2 class="section-title" id="featured-title" data-reveal>«Шерсть и лён»: новый сайт и первые 1&nbsp;000 заказов</h2>
+        <p class="section-lead">Интернет-магазин одежды из натуральных тканей. Старый сайт терял покупателей на телефоне: корзина не помещалась на экран, оплата открывалась в новой вкладке.</p>
+        <dl class="featured-facts">
+          <div><dt>конверсия сайта</dt><dd>0,8% → 3,1%</dd></div>
+          <div><dt>ROMI рекламы</dt><dd>240%</dd></div>
+          <div><dt>срок</dt><dd>5 мес</dd></div>
+        </dl>
+        <ul class="work-tags"><li>Брендинг и сайты</li><li>Контекст</li></ul>
+      </div>
+      <div class="compare" data-compare style="--pos: 50%">
+        <div class="compare-pane compare-after"><div class="ph " style="--ink: var(--y)" role="img" aria-label="Стало: скриншот нового сайта, место для изображения 1600 × 1000"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Стало: скриншот нового сайта</span><small>1600 × 1000</small></span></div><span class="compare-badge">Стало</span></div>
+        <div class="compare-pane compare-before" aria-hidden="true"><div class="ph " style="--ink: var(--k)" role="img" aria-label="Было: скриншот старого сайта, место для изображения 1600 × 1000"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Было: скриншот старого сайта</span><small>1600 × 1000</small></span></div><span class="compare-badge">Было</span></div>
+        <span class="compare-handle" aria-hidden="true"><span class="compare-knob"><svg viewBox="0 0 24 24"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></span>
+        <label class="visually-hidden" for="compare-range">Сравнить старый и новый сайт</label>
+        <input class="compare-range" id="compare-range" type="range" min="0" max="100" value="50" data-compare-range>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Filterable works ============ -->
+  <section class="section works" id="works" aria-labelledby="works-title">
+    <div class="container">
+      <div class="works-head">
+        <h2 class="section-title" id="works-title" data-reveal>Все проекты</h2>
+        <div class="filters" role="group" aria-label="Фильтр по услугам">
+          <ul>
+            <li><button type="button" data-filter="all" aria-pressed="true" style="--ink: var(--c)"><span class="ink-dot" aria-hidden="true"></span>Все</button></li>
+            <li><button type="button" data-filter="smm" aria-pressed="false" style="--ink: var(--m)"><span class="ink-dot" aria-hidden="true"></span>SMM</button></li><li><button type="button" data-filter="target" aria-pressed="false" style="--ink: var(--y)"><span class="ink-dot" aria-hidden="true"></span>Таргет</button></li><li><button type="button" data-filter="context" aria-pressed="false" style="--ink: var(--r)"><span class="ink-dot" aria-hidden="true"></span>Контекст</button></li><li><button type="button" data-filter="seo" aria-pressed="false" style="--ink: var(--g)"><span class="ink-dot" aria-hidden="true"></span>SEO</button></li><li><button type="button" data-filter="brand" aria-pressed="false" style="--ink: var(--b)"><span class="ink-dot" aria-hidden="true"></span>Брендинг и сайты</button></li>
+          </ul>
+          <p class="filters-count" aria-live="polite" data-filter-count>Показано проектов: 8</p>
+        </div>
+      </div>
+      <div class="works-grid" data-works>
+        <article class="work w7" data-tags="smm target" style="--ink: var(--c)">
+          <div class="work-media r43"><div class="ph " style="--ink: var(--c)" role="img" aria-label="Обложка кейса, место для изображения 1200 × 900"><span class="ph-pattern" data-depth="0.4" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Обложка кейса</span><small>1200 × 900</small></span></div></div>
+            <p class="work-meta">Сеть кофеен, Казань</p>
+            <h3 class="work-title"><button class="work-open" type="button" data-case-open aria-haspopup="dialog">Кофейня «Зерно»</button></h3>
+            <dl class="work-facts"><div><dt>заявок в месяц</dt><dd>×2,4</dd></div><div><dt>цена заявки</dt><dd>−38%</dd></div></dl>
+            <ul class="work-tags"><li>SMM</li><li>Таргет</li></ul>
+            <span class="work-more" aria-hidden="true">Смотреть кейс</span>
+          <template data-case>
+            <p class="cd-meta">Сеть кофеен, Казань</p>
+            <h2 class="cd-title" id="cd-title">Кофейня «Зерно»</h2>
+            <ul class="work-tags"><li>SMM</li><li>Таргет</li></ul>
+            <div class="cd-gallery">
+              <div class="ph cd-main" style="--ink: var(--c)" role="img" aria-label="Главное фото кейса, место для изображения 1600 × 1000"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Главное фото кейса</span><small>1600 × 1000</small></span></div>
+              <div class="ph " style="--ink: var(--c)" role="img" aria-label="Скриншот рекламы, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот рекламы</span><small>800 × 800</small></span></div>
+              <div class="ph " style="--ink: var(--c)" role="img" aria-label="Скриншот отчёта, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот отчёта</span><small>800 × 800</small></span></div>
+            </div>
+            <dl class="cd-facts"><div><dt>заявок в месяц</dt><dd>×2,4</dd></div><div><dt>цена заявки</dt><dd>−38%</dd></div><div><dt>срок</dt><dd>4 мес</dd></div></dl>
+            <div class="cd-cols">
+              <div><h3>Задача</h3><p>Три кофейни, заказы на вынос шли только с улицы. Нужно было запустить предзаказ через Telegram и загрузить утренние часы.</p></div>
+              <div><h3>Что сделали</h3><ul class="ticks"><li>Сделали Telegram-бота для предзаказа</li><li>Сняли серию роликов «кофе за 3 минуты»</li><li>Таргет по жителям в радиусе 1,5 км</li><li>Еженедельные акции на утро</li></ul></div>
+            </div>
+          </template>
+        </article>
+        <article class="work w5" data-tags="context seo" style="--ink: var(--m)">
+          <div class="work-media r45"><div class="ph " style="--ink: var(--m)" role="img" aria-label="Обложка кейса, место для изображения 1200 × 900"><span class="ph-pattern" data-depth="0.4" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Обложка кейса</span><small>1200 × 900</small></span></div></div>
+            <p class="work-meta">Стоматология, Екатеринбург</p>
+            <h3 class="work-title"><button class="work-open" type="button" data-case-open aria-haspopup="dialog">«Ортодент»</button></h3>
+            <dl class="work-facts"><div><dt>записей с сайта</dt><dd>+170</dd></div><div><dt>цена записи</dt><dd>1 900 ₽</dd></div></dl>
+            <ul class="work-tags"><li>Контекст</li><li>SEO</li></ul>
+            <span class="work-more" aria-hidden="true">Смотреть кейс</span>
+          <template data-case>
+            <p class="cd-meta">Стоматология, Екатеринбург</p>
+            <h2 class="cd-title" id="cd-title">«Ортодент»</h2>
+            <ul class="work-tags"><li>Контекст</li><li>SEO</li></ul>
+            <div class="cd-gallery">
+              <div class="ph cd-main" style="--ink: var(--m)" role="img" aria-label="Главное фото кейса, место для изображения 1600 × 1000"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Главное фото кейса</span><small>1600 × 1000</small></span></div>
+              <div class="ph " style="--ink: var(--m)" role="img" aria-label="Скриншот рекламы, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот рекламы</span><small>800 × 800</small></span></div>
+              <div class="ph " style="--ink: var(--m)" role="img" aria-label="Скриншот отчёта, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот отчёта</span><small>800 × 800</small></span></div>
+            </div>
+            <dl class="cd-facts"><div><dt>записей с сайта</dt><dd>+170</dd></div><div><dt>цена записи</dt><dd>1 900 ₽</dd></div><div><dt>срок</dt><dd>6 мес</dd></div></dl>
+            <div class="cd-cols">
+              <div><h3>Задача</h3><p>Клиника тратила бюджет на клики по информационным запросам, а запись на имплантацию стоила дороже чека консультации.</p></div>
+              <div><h3>Что сделали</h3><ul class="ticks"><li>Пересобрали семантику под коммерческие запросы</li><li>Отдельные посадочные под каждую услугу</li><li>Квиз «Рассчитать стоимость имплантации»</li><li>SEO: 40 страниц услуг и врачей</li></ul></div>
+            </div>
+          </template>
+        </article>
+        <article class="work w4" data-tags="target" style="--ink: var(--y)">
+          <div class="work-media r11"><div class="ph " style="--ink: var(--y)" role="img" aria-label="Обложка кейса, место для изображения 1200 × 900"><span class="ph-pattern" data-depth="0.4" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Обложка кейса</span><small>1200 × 900</small></span></div></div>
+            <p class="work-meta">Онлайн-школа английского, вся Россия</p>
+            <h3 class="work-title"><button class="work-open" type="button" data-case-open aria-haspopup="dialog">«Точка роста»</button></h3>
+            <dl class="work-facts"><div><dt>заявок на пробный урок</dt><dd>2 300</dd></div><div><dt>цена заявки</dt><dd>410 ₽</dd></div></dl>
+            <ul class="work-tags"><li>Таргет</li></ul>
+            <span class="work-more" aria-hidden="true">Смотреть кейс</span>
+          <template data-case>
+            <p class="cd-meta">Онлайн-школа английского, вся Россия</p>
+            <h2 class="cd-title" id="cd-title">«Точка роста»</h2>
+            <ul class="work-tags"><li>Таргет</li></ul>
+            <div class="cd-gallery">
+              <div class="ph cd-main" style="--ink: var(--y)" role="img" aria-label="Главное фото кейса, место для изображения 1600 × 1000"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Главное фото кейса</span><small>1600 × 1000</small></span></div>
+              <div class="ph " style="--ink: var(--y)" role="img" aria-label="Скриншот рекламы, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот рекламы</span><small>800 × 800</small></span></div>
+              <div class="ph " style="--ink: var(--y)" role="img" aria-label="Скриншот отчёта, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот отчёта</span><small>800 × 800</small></span></div>
+            </div>
+            <dl class="cd-facts"><div><dt>заявок на пробный урок</dt><dd>2 300</dd></div><div><dt>цена заявки</dt><dd>410 ₽</dd></div><div><dt>срок</dt><dd>3 мес</dd></div></dl>
+            <div class="cd-cols">
+              <div><h3>Задача</h3><p>Школа запускала новый курс для взрослых и не знала, какая аудитория будет покупать.</p></div>
+              <div><h3>Что сделали</h3><ul class="ticks"><li>Протестировали 6 сегментов и 24 креатива</li><li>Лид-формы прямо в рекламе ВКонтакте</li><li>Автоворонка в Telegram: пробный урок, напоминание, оффер</li></ul></div>
+            </div>
+          </template>
+        </article>
+        <article class="work w4" data-tags="context seo" style="--ink: var(--r)">
+          <div class="work-media r11"><div class="ph " style="--ink: var(--r)" role="img" aria-label="Обложка кейса, место для изображения 1200 × 900"><span class="ph-pattern" data-depth="0.4" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Обложка кейса</span><small>1200 × 900</small></span></div></div>
+            <p class="work-meta">Каркасные дома, Новосибирск</p>
+            <h3 class="work-title"><button class="work-open" type="button" data-case-open aria-haspopup="dialog">«ТеплоДом»</button></h3>
+            <dl class="work-facts"><div><dt>заявки в месяц</dt><dd>64</dd></div><div><dt>договоров за сезон</dt><dd>12</dd></div></dl>
+            <ul class="work-tags"><li>Контекст</li><li>SEO</li></ul>
+            <span class="work-more" aria-hidden="true">Смотреть кейс</span>
+          <template data-case>
+            <p class="cd-meta">Каркасные дома, Новосибирск</p>
+            <h2 class="cd-title" id="cd-title">«ТеплоДом»</h2>
+            <ul class="work-tags"><li>Контекст</li><li>SEO</li></ul>
+            <div class="cd-gallery">
+              <div class="ph cd-main" style="--ink: var(--r)" role="img" aria-label="Главное фото кейса, место для изображения 1600 × 1000"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Главное фото кейса</span><small>1600 × 1000</small></span></div>
+              <div class="ph " style="--ink: var(--r)" role="img" aria-label="Скриншот рекламы, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот рекламы</span><small>800 × 800</small></span></div>
+              <div class="ph " style="--ink: var(--r)" role="img" aria-label="Скриншот отчёта, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот отчёта</span><small>800 × 800</small></span></div>
+            </div>
+            <dl class="cd-facts"><div><dt>заявки в месяц</dt><dd>64</dd></div><div><dt>договоров за сезон</dt><dd>12</dd></div><div><dt>срок</dt><dd>5 мес</dd></div></dl>
+            <div class="cd-cols">
+              <div><h3>Задача</h3><p>Длинный цикл сделки и дорогие клики: заявки приходили, но до договора доходили единицы.</p></div>
+              <div><h3>Что сделали</h3><ul class="ticks"><li>Калькулятор стоимости дома на сайте</li><li>Директ с оплатой за конверсии</li><li>Статьи и кейсы домов для SEO</li><li>Передача заявок в amoCRM</li></ul></div>
+            </div>
+          </template>
+        </article>
+        <article class="work w4" data-tags="smm target" style="--ink: var(--g)">
+          <div class="work-media r11"><div class="ph " style="--ink: var(--g)" role="img" aria-label="Обложка кейса, место для изображения 1200 × 900"><span class="ph-pattern" data-depth="0.4" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Обложка кейса</span><small>1200 × 900</small></span></div></div>
+            <p class="work-meta">Фитнес, Самара</p>
+            <h3 class="work-title"><button class="work-open" type="button" data-case-open aria-haspopup="dialog">Фитнес-клуб «Пульс»</button></h3>
+            <dl class="work-facts"><div><dt>подписчиков</dt><dd>+1 800</dd></div><div><dt>пробных тренировок</dt><dd>320</dd></div></dl>
+            <ul class="work-tags"><li>SMM</li><li>Таргет</li></ul>
+            <span class="work-more" aria-hidden="true">Смотреть кейс</span>
+          <template data-case>
+            <p class="cd-meta">Фитнес, Самара</p>
+            <h2 class="cd-title" id="cd-title">Фитнес-клуб «Пульс»</h2>
+            <ul class="work-tags"><li>SMM</li><li>Таргет</li></ul>
+            <div class="cd-gallery">
+              <div class="ph cd-main" style="--ink: var(--g)" role="img" aria-label="Главное фото кейса, место для изображения 1600 × 1000"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Главное фото кейса</span><small>1600 × 1000</small></span></div>
+              <div class="ph " style="--ink: var(--g)" role="img" aria-label="Скриншот рекламы, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот рекламы</span><small>800 × 800</small></span></div>
+              <div class="ph " style="--ink: var(--g)" role="img" aria-label="Скриншот отчёта, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот отчёта</span><small>800 × 800</small></span></div>
+            </div>
+            <dl class="cd-facts"><div><dt>подписчиков</dt><dd>+1 800</dd></div><div><dt>пробных тренировок</dt><dd>320</dd></div><div><dt>срок</dt><dd>2 мес</dd></div></dl>
+            <div class="cd-cols">
+              <div><h3>Задача</h3><p>Новый клуб открывался в спальном районе, и нужно было набрать базу до открытия.</p></div>
+              <div><h3>Что сделали</h3><ul class="ticks"><li>Контент со стройки и тренерами</li><li>Розыгрыш абонементов среди соседей</li><li>Таргет с лид-формой «пробная тренировка»</li></ul></div>
+            </div>
+          </template>
+        </article>
+        <article class="work w6" data-tags="brand smm" style="--ink: var(--b)">
+          <div class="work-media r43"><div class="ph " style="--ink: var(--b)" role="img" aria-label="Обложка кейса, место для изображения 1200 × 900"><span class="ph-pattern" data-depth="0.4" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Обложка кейса</span><small>1200 × 900</small></span></div></div>
+            <p class="work-meta">Пекарня, Москва</p>
+            <h3 class="work-title"><button class="work-open" type="button" data-case-open aria-haspopup="dialog">Mono Bakery</button></h3>
+            <dl class="work-facts"><div><dt>продажи за год</dt><dd>×1,6</dd></div><div><dt>новые точки</dt><dd>3</dd></div></dl>
+            <ul class="work-tags"><li>Брендинг и сайты</li><li>SMM</li></ul>
+            <span class="work-more" aria-hidden="true">Смотреть кейс</span>
+          <template data-case>
+            <p class="cd-meta">Пекарня, Москва</p>
+            <h2 class="cd-title" id="cd-title">Mono Bakery</h2>
+            <ul class="work-tags"><li>Брендинг и сайты</li><li>SMM</li></ul>
+            <div class="cd-gallery">
+              <div class="ph cd-main" style="--ink: var(--b)" role="img" aria-label="Главное фото кейса, место для изображения 1600 × 1000"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Главное фото кейса</span><small>1600 × 1000</small></span></div>
+              <div class="ph " style="--ink: var(--b)" role="img" aria-label="Скриншот рекламы, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот рекламы</span><small>800 × 800</small></span></div>
+              <div class="ph " style="--ink: var(--b)" role="img" aria-label="Скриншот отчёта, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот отчёта</span><small>800 × 800</small></span></div>
+            </div>
+            <dl class="cd-facts"><div><dt>продажи за год</dt><dd>×1,6</dd></div><div><dt>новые точки</dt><dd>3</dd></div><div><dt>на брендинг</dt><dd>8 нед</dd></div></dl>
+            <div class="cd-cols">
+              <div><h3>Задача</h3><p>Пекарня росла, а вывеска, упаковка и соцсети выглядели по-разному в каждой точке.</p></div>
+              <div><h3>Что сделали</h3><ul class="ticks"><li>Логотип, шрифты и упаковка</li><li>Гайдлайн для соцсетей</li><li>Визуальный стиль Instagram и ВКонтакте</li></ul></div>
+            </div>
+          </template>
+        </article>
+        <article class="work w6" data-tags="seo context" style="--ink: var(--c)">
+          <div class="work-media r43"><div class="ph " style="--ink: var(--c)" role="img" aria-label="Обложка кейса, место для изображения 1200 × 900"><span class="ph-pattern" data-depth="0.4" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Обложка кейса</span><small>1200 × 900</small></span></div></div>
+            <p class="work-meta">Автосервис, Краснодар</p>
+            <h3 class="work-title"><button class="work-open" type="button" data-case-open aria-haspopup="dialog">«АвтоДок»</button></h3>
+            <dl class="work-facts"><div><dt>по 40 запросам</dt><dd>топ-3</dd></div><div><dt>звонков</dt><dd>+55%</dd></div></dl>
+            <ul class="work-tags"><li>SEO</li><li>Контекст</li></ul>
+            <span class="work-more" aria-hidden="true">Смотреть кейс</span>
+          <template data-case>
+            <p class="cd-meta">Автосервис, Краснодар</p>
+            <h2 class="cd-title" id="cd-title">«АвтоДок»</h2>
+            <ul class="work-tags"><li>SEO</li><li>Контекст</li></ul>
+            <div class="cd-gallery">
+              <div class="ph cd-main" style="--ink: var(--c)" role="img" aria-label="Главное фото кейса, место для изображения 1600 × 1000"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Главное фото кейса</span><small>1600 × 1000</small></span></div>
+              <div class="ph " style="--ink: var(--c)" role="img" aria-label="Скриншот рекламы, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот рекламы</span><small>800 × 800</small></span></div>
+              <div class="ph " style="--ink: var(--c)" role="img" aria-label="Скриншот отчёта, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот отчёта</span><small>800 × 800</small></span></div>
+            </div>
+            <dl class="cd-facts"><div><dt>по 40 запросам</dt><dd>топ-3</dd></div><div><dt>звонков</dt><dd>+55%</dd></div><div><dt>срок</dt><dd>6 мес</dd></div></dl>
+            <div class="cd-cols">
+              <div><h3>Задача</h3><p>Сервис зависел от рекламы: стоило отключить Директ, и звонки пропадали.</p></div>
+              <div><h3>Что сделали</h3><ul class="ticks"><li>Страницы под каждую марку и вид ремонта</li><li>Яндекс Карты и отзывы</li><li>Директ только на высокомаржинальные работы</li></ul></div>
+            </div>
+          </template>
+        </article>
+        <article class="work w12" data-tags="seo brand" style="--ink: var(--m)">
+          <div class="work-media r21"><div class="ph " style="--ink: var(--m)" role="img" aria-label="Обложка кейса, место для изображения 1200 × 900"><span class="ph-pattern" data-depth="0.4" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Обложка кейса</span><small>1200 × 900</small></span></div></div>
+            <p class="work-meta">Интернет-магазин светильников, Санкт-Петербург</p>
+            <h3 class="work-title"><button class="work-open" type="button" data-case-open aria-haspopup="dialog">Lumen</button></h3>
+            <dl class="work-facts"><div><dt>органический трафик</dt><dd>×3</dd></div><div><dt>конверсия</dt><dd>2,4%</dd></div></dl>
+            <ul class="work-tags"><li>SEO</li><li>Брендинг и сайты</li></ul>
+            <span class="work-more" aria-hidden="true">Смотреть кейс</span>
+          <template data-case>
+            <p class="cd-meta">Интернет-магазин светильников, Санкт-Петербург</p>
+            <h2 class="cd-title" id="cd-title">Lumen</h2>
+            <ul class="work-tags"><li>SEO</li><li>Брендинг и сайты</li></ul>
+            <div class="cd-gallery">
+              <div class="ph cd-main" style="--ink: var(--m)" role="img" aria-label="Главное фото кейса, место для изображения 1600 × 1000"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Главное фото кейса</span><small>1600 × 1000</small></span></div>
+              <div class="ph " style="--ink: var(--m)" role="img" aria-label="Скриншот рекламы, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот рекламы</span><small>800 × 800</small></span></div>
+              <div class="ph " style="--ink: var(--m)" role="img" aria-label="Скриншот отчёта, место для изображения 800 × 800"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Скриншот отчёта</span><small>800 × 800</small></span></div>
+            </div>
+            <dl class="cd-facts"><div><dt>органический трафик</dt><dd>×3</dd></div><div><dt>конверсия</dt><dd>2,4%</dd></div><div><dt>срок</dt><dd>9 мес</dd></div></dl>
+            <div class="cd-cols">
+              <div><h3>Задача</h3><p>Магазин переезжал на новую платформу и боялся потерять позиции в поиске.</p></div>
+              <div><h3>Что сделали</h3><ul class="ticks"><li>Карта редиректов и миграция без потерь</li><li>Новый дизайн карточек товаров</li><li>SEO-фильтры по стилю и комнате</li></ul></div>
+            </div>
+          </template>
+        </article>
+      </div>
+      <p class="works-empty" data-works-empty hidden>В этой категории пока нет кейсов. <button type="button" class="link-ink" data-filter="all">Показать все проекты</button></p>
+    </div>
+  </section>
+
+  <!-- ============ Clients ============ -->
+  <section class="section clients" aria-labelledby="clients-title">
+    <div class="container clients-grid">
+      <h2 class="section-title" id="clients-title" data-reveal>С кем работаем</h2>
+      <ul class="logos"><li><span class="logo-slot" style="--ink: var(--c)">Логотип клиента</span></li><li><span class="logo-slot" style="--ink: var(--m)">Логотип клиента</span></li><li><span class="logo-slot" style="--ink: var(--y)">Логотип клиента</span></li><li><span class="logo-slot" style="--ink: var(--k)">Логотип клиента</span></li><li><span class="logo-slot" style="--ink: var(--r)">Логотип клиента</span></li><li><span class="logo-slot" style="--ink: var(--g)">Логотип клиента</span></li><li><span class="logo-slot" style="--ink: var(--b)">Логотип клиента</span></li><li><span class="logo-slot" style="--ink: var(--c)">Логотип клиента</span></li></ul>
+    </div>
+  </section>
+
+  <!-- ============ Review template ============ -->
+  <section class="section review" aria-labelledby="review-title">
+    <div class="container review-grid">
+      <h2 class="visually-hidden" id="review-title">Отзыв клиента</h2>
+      <div class="review-photo"><div class="ph " style="--ink: var(--m)" role="img" aria-label="Фото клиента, место для изображения 600 × 600"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Фото клиента</span><small>600 × 600</small></span></div></div>
+      <figure class="review-body">
+        <blockquote>
+          <p>Здесь будет отзыв клиента: какой была ситуация до работы с агентством, что изменилось и какие цифры получили. Два-три предложения читают лучше, чем абзац.</p>
+        </blockquote>
+        <figcaption><strong>Имя Фамилия</strong><span>Должность, компания</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ BRIEF: print job ticket ============ -->
+  <section class="section brief" id="brief" aria-labelledby="brief-title">
+    <div class="container brief-grid">
+      <div class="brief-copy">
+        <h2 class="section-title" id="brief-title" data-reveal>Расскажите о задаче</h2>
+        <p class="section-lead">Ответим в течение рабочего дня и предложим план с бюджетом. Если реклама вам пока не нужна — так и скажем.</p>
+        <ul class="brief-contacts">
+          <li><a href="tel:+79990000000">+7 999 000-00-00</a></li>
+          <li><a href="mailto:hello@privodka.ru">hello@privodka.ru</a></li>
+          <li>Пн–Пт, 10:00–19:00 по Москве</li>
+        </ul>
+      </div>
+
+      <form class="ticket" data-form novalidate aria-labelledby="brief-title">
+        <div class="ticket-row ticket-top" aria-hidden="true">
+          <span>Заказ-наряд</span><span>№ <span data-ticket-no>0001</span></span>
+        </div>
+        <div class="field">
+          <label for="b-name">Как вас зовут</label>
+          <input id="b-name" name="name" type="text" autocomplete="name" required>
+          <p class="field-error" hidden>Напишите имя, чтобы мы знали, как к вам обращаться.</p>
+        </div>
+        <div class="field-pair">
+          <div class="field">
+            <label for="b-phone">Телефон</label>
+            <input id="b-phone" name="phone" type="tel" autocomplete="tel" placeholder="+7 900 000-00-00" required data-phone>
+            <p class="field-error" hidden>Проверьте номер: нужно 11 цифр.</p>
+          </div>
+          <div class="field">
+            <label for="b-company">Компания или сайт</label>
+            <input id="b-company" name="company" type="text" autocomplete="organization">
+          </div>
+        </div>
+        <fieldset class="field chips">
+          <legend>Что нужно</legend>
+          <label><input type="checkbox" name="need" value="smm"><span>SMM</span></label>
+          <label><input type="checkbox" name="need" value="target"><span>Таргет</span></label>
+          <label><input type="checkbox" name="need" value="context"><span>Контекст</span></label>
+          <label><input type="checkbox" name="need" value="seo"><span>SEO</span></label>
+          <label><input type="checkbox" name="need" value="site"><span>Сайт и бренд</span></label>
+          <label><input type="checkbox" name="need" value="unknown"><span>Пока не знаю</span></label>
+        </fieldset>
+        <div class="field">
+          <label for="b-msg">Задача в двух словах</label>
+          <textarea id="b-msg" name="message" rows="3" placeholder="Например: мало заявок с сайта, хотим запустить рекламу в Telegram"></textarea>
+        </div>
+        <label class="check">
+          <input type="checkbox" name="consent" required>
+          <span class="check-box" aria-hidden="true"></span>
+          <span class="check-text">Даю <a href="consent.html">согласие на обработку персональных данных</a> и принимаю <a href="privacy.html">политику конфиденциальности</a></span>
+        </label>
+        <p class="field-error consent-error" hidden>Без согласия мы не можем принять заявку.</p>
+        <button class="btn btn-magenta btn-wide" type="submit">Отправить заявку</button>
+        <div class="form-success" hidden role="status">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="11" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="20" cy="20" r="4.5" fill="currentColor"/><path d="M20 2v36M2 20h36" stroke="currentColor" stroke-width="2"/></svg>
+          <p><strong>Заявка отправлена.</strong> Перезвоним в течение рабочего дня.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<dialog class="case-dialog" data-case-dialog aria-labelledby="cd-title">
+  <div class="cd-sheet">
+    <button class="cd-close" type="button" data-case-close><span class="visually-hidden">Закрыть кейс</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <div class="cd-content" data-case-content></div>
+    <div class="cd-cta">
+      <p>Хотите похожий результат?</p>
+      <a class="btn btn-magenta" href="#brief" data-case-cta>Обсудить проект</a>
+    </div>
+  </div>
+</dialog>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="logo logo-light" href="index.html" aria-label="Приводка — на главную">
+        <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="11" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="20" cy="20" r="4.5" fill="currentColor"/><path d="M20 2v36M2 20h36" stroke="currentColor" stroke-width="2.5"/></svg>
+        <span class="logo-word">Приводка</span>
+      </a>
+      <p>Маркетинговое агентство полного цикла. Работаем с бизнесом по всей России.</p>
+    </div>
+    <nav class="footer-col" aria-label="Разделы сайта">
+      <h2>Разделы</h2>
+      <ul>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="portfolio.html">Портфолио</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="about.html#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+    <nav class="footer-col" aria-label="Документы">
+      <h2>Документы</h2>
+      <ul>
+        <li><a href="privacy.html">Политика конфиденциальности</a></li>
+        <li><a href="consent.html">Согласие на обработку данных</a></li>
+        <li><a href="cookies.html">Политика cookie</a></li>
+        <li><button class="footer-link-btn" type="button" data-cookie-settings>Настройки cookie</button></li>
+      </ul>
+    </nav>
+    <div class="footer-col">
+      <h2>Контакты</h2>
+      <ul>
+        <li><a href="tel:+79990000000">+7 999 000-00-00</a></li>
+        <li><a href="mailto:hello@privodka.ru">hello@privodka.ru</a></li>
+        <li>Москва, ул. Примерная, 1</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-legal">
+    <p><span>ООО «Приводка»</span> <span>ИНН 0000000000</span> <span>ОГРН 0000000000000</span></p>
+    <p>© <span data-year>2026</span> Приводка. Сайт-шаблон, данные компании условные.</p>
+  </div>
+</footer>
+
+<!-- Cookie notice (152-ФЗ): analytics runs only after consent -->
+<div class="cookie" data-cookie role="region" aria-label="Уведомление о cookie" hidden>
+  <p>Мы используем cookie. Необходимые нужны для работы сайта, аналитические помогают понять, какие страницы полезны. Аналитика включится только с вашего согласия. Подробнее — в <a href="cookies.html">политике cookie</a>.</p>
+  <div class="cookie-actions">
+    <button class="btn btn-ink" type="button" data-cookie-accept>Принять все</button>
+    <button class="btn btn-line" type="button" data-cookie-necessary>Только необходимые</button>
+  </div>
+</div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

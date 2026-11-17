@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ru" data-intro>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Приводка — маркетинговое агентство полного цикла</title>
+  <meta name="description" content="Стратегия, SMM, таргетированная и контекстная реклама, SEO, брендинг и сайты. Сводим все каналы в одну систему, чтобы заявки шли каждый месяц.">
+  <meta name="theme-color" content="#F3F4F1">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Приводка — маркетинговое агентство">
+  <meta property="og:description" content="Четыре краски. Один чёткий результат. Стратегия, реклама и сайты в одной системе.">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/Unbounded.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function (d) {
+      d.classList.add('js');
+      var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      try { if ('scrollRestoration' in history) history.scrollRestoration = 'manual'; } catch (e) {}
+      try {
+        var v = sessionStorage.getItem('pv-veil');
+        if (v && !reduce) { v = JSON.parse(v); d.classList.add('veil-in'); d.setAttribute('data-veil-title', v.t); d.style.setProperty('--veil-bg', v.bg); }
+        sessionStorage.removeItem('pv-veil');
+        if (d.hasAttribute('data-intro') && !v && !reduce && !sessionStorage.getItem('pv-intro')) d.classList.add('intro-on');
+      } catch (e) {}
+      setTimeout(function () { d.classList.add('is-ready'); }, 4000); /* safety net */
+    })(document.documentElement);
+  </script>
+</head>
+<body class="page-home">
+
+<span id="page-top" class="page-top" aria-hidden="true"></span>
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+
+<div class="intro" data-intro-screen aria-hidden="true">
+  <svg class="intro-mark" viewBox="0 0 132 132">
+    <circle class="dot dot-c" cx="54" cy="58" r="30" fill="#3D9FD3" opacity=".85"/>
+    <circle class="dot dot-m" cx="78" cy="58" r="30" fill="#D65A8A" opacity=".85"/>
+    <circle class="dot dot-y" cx="66" cy="78" r="30" fill="#F2D058" opacity=".9"/>
+    <circle class="ring" cx="66" cy="66" r="40" pathLength="1"/>
+    <path class="cross" d="M66 6v120M6 66h120" pathLength="1"/>
+    <circle class="core" cx="66" cy="66" r="9" fill="#17171A"/>
+  </svg>
+  <div class="intro-word"><span style="--i:0">П</span><span style="--i:1">р</span><span style="--i:2">и</span><span style="--i:3">в</span><span style="--i:4">о</span><span style="--i:5">д</span><span style="--i:6">к</span><span style="--i:7">а</span></div>
+  <p class="intro-sub">маркетинговое агентство</p>
+</div>
+
+
+<!-- Halftone patterns: real screen angles C 15, M 75, Y 0, K 45 -->
+<svg class="defs" aria-hidden="true" focusable="false" width="0" height="0">
+  <defs>
+    <pattern id="dot-c" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(15)"><circle cx="4.5" cy="4.5" r="3.3" fill="#3D9FD3"/></pattern>
+    <pattern id="dot-m" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(75)"><circle cx="4.5" cy="4.5" r="3.3" fill="#D65A8A"/></pattern>
+    <pattern id="dot-y" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(0)"><circle cx="4.5" cy="4.5" r="3.6" fill="#F2D058"/></pattern>
+    <pattern id="dot-k" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><circle cx="3.5" cy="3.5" r="1.9" fill="#17171A"/></pattern>
+  </defs>
+</svg>
+
+<header class="site-header" data-header>
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Приводка — на главную">
+      <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="11" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="20" cy="20" r="4.5" fill="currentColor"/><path d="M20 2v36M2 20h36" stroke="currentColor" stroke-width="2.5"/></svg>
+      <span class="logo-word">Приводка</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Основное меню">
+      <ul>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="portfolio.html">Портфолио</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="about.html#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <a class="btn btn-ink header-cta" href="#brief">Обсудить проект</a>
+
+    <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-menu" data-burger>
+      <span class="burger-lines" aria-hidden="true"><span></span><span></span></span>
+      <span class="visually-hidden" data-burger-label>Открыть меню</span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" data-menu aria-hidden="true" role="dialog" aria-modal="true" aria-label="Меню">
+  <div class="mobile-menu-sheet">
+    <nav aria-label="Мобильное меню">
+      <ul class="mobile-menu-list">
+        <li><a href="index.html" aria-current="page"><span class="ink-dot ink-c" aria-hidden="true"></span>Главная</a></li>
+        <li><a href="services.html"><span class="ink-dot ink-m" aria-hidden="true"></span>Услуги</a></li>
+        <li><a href="portfolio.html"><span class="ink-dot ink-y" aria-hidden="true"></span>Портфолио</a></li>
+        <li><a href="about.html"><span class="ink-dot ink-g" aria-hidden="true"></span>О компании</a></li>
+        <li><a href="about.html#contacts"><span class="ink-dot ink-b" aria-hidden="true"></span>Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-foot">
+      <a class="btn btn-ink btn-wide" href="#brief" data-menu-close>Обсудить проект</a>
+      <p class="mobile-menu-contacts">
+        <a href="tel:+79990000000">+7 999 000-00-00</a>
+        <a href="mailto:hello@privodka.ru">hello@privodka.ru</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============ HERO: the proof sheet ============ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="proof-marks" aria-hidden="true">
+      <span class="crop crop-tl"></span><span class="crop crop-tr"></span>
+      <span class="crop crop-bl"></span><span class="crop crop-br"></span>
+      <svg class="reg-target reg-top" viewBox="0 0 40 40"><circle cx="20" cy="20" r="9" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M20 4v32M4 20h32" stroke="currentColor" stroke-width="1.2"/></svg>
+      <svg class="reg-target reg-side" viewBox="0 0 40 40"><circle cx="20" cy="20" r="9" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M20 4v32M4 20h32" stroke="currentColor" stroke-width="1.2"/></svg>
+    </div>
+
+    <div class="container hero-grid">
+      <h1 class="hero-title" id="hero-title">
+        <span class="register" data-register data-enter style="--d:0">
+          <span class="register-plate plate-y" aria-hidden="true">Четыре краски. Один результат:</span>
+          <span class="register-plate plate-m" aria-hidden="true">Четыре краски. Один результат:</span>
+          <span class="register-plate plate-c" aria-hidden="true">Четыре краски. Один результат:</span>
+          <span class="register-key">Четыре краски. Один результат:</span>
+        </span>
+        <span class="rotator" data-rotator data-enter style="--d:2">
+          <span class="visually-hidden">заявки, продажи, клиенты, звонки и прибыль</span>
+          <span class="rotator-box" aria-hidden="true"><span class="rotator-word" data-words="заявки|продажи|клиенты|звонки|прибыль">заявки</span></span>
+        </span>
+      </h1>
+
+      <div class="hero-lead" data-enter style="--d:3">
+        <p>В печати картинка становится чёткой, только когда четыре краски легли точно друг на друга. С рекламой так же: стратегия, соцсети, реклама и сайт должны бить в одну точку.</p>
+        <p>Мы сводим их в одну систему — и вы видите заявки, а не охваты.</p>
+      </div>
+
+      <div class="hero-visual" data-enter style="--d:4">
+        <div class="ph ph-hero" style="--ink: var(--m)" role="img" aria-label="Ваше фото или иллюстрация, место для изображения 880 × 1100"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Ваше фото или иллюстрация</span><small>880 × 1100</small></span></div>
+        <span class="hero-stamp" aria-hidden="true"><svg viewBox="0 0 120 120"><defs><path id="stamp-circle" d="M60 60 m-44 0 a44 44 0 1 1 88 0 a44 44 0 1 1 -88 0"/></defs><text><textPath href="#stamp-circle">маркетинг в точной приводке • маркетинг в точной приводке • </textPath></text><circle cx="60" cy="60" r="16" fill="none" stroke="currentColor" stroke-width="2"/><path d="M60 36v48M36 60h48" stroke="currentColor" stroke-width="2"/></svg></span>
+      </div>
+
+      <form class="slip hero-form" data-enter style="--d:5" data-form novalidate aria-labelledby="slip-title">
+        <div class="slip-head">
+          <h2 class="slip-title" id="slip-title">Бесплатный разбор вашей рекламы</h2>
+          <p class="slip-note">Посмотрим сайт и соцсети, пришлём три точки роста за 2 рабочих дня.</p>
+        </div>
+        <div class="field">
+          <label for="hero-link">Сайт или соцсеть</label>
+          <input id="hero-link" name="link" type="text" inputmode="url" autocomplete="url" placeholder="site.ru или @account" required>
+          <p class="field-error" id="hero-link-err" hidden>Укажите адрес сайта или аккаунта.</p>
+        </div>
+        <div class="field">
+          <label for="hero-phone">Телефон или Telegram</label>
+          <input id="hero-phone" name="contact" type="text" autocomplete="tel" placeholder="+7 900 000-00-00" required>
+          <p class="field-error" id="hero-phone-err" hidden>Оставьте телефон или ник, чтобы мы могли прислать разбор.</p>
+        </div>
+        <label class="check">
+          <input type="checkbox" name="consent" required>
+          <span class="check-box" aria-hidden="true"></span>
+          <span class="check-text">Даю <a href="consent.html">согласие на обработку персональных данных</a> и принимаю <a href="privacy.html">политику конфиденциальности</a></span>
+        </label>
+        <p class="field-error consent-error" hidden>Без согласия мы не можем принять заявку.</p>
+        <button class="btn btn-ink btn-wide" type="submit">Получить разбор</button>
+        <div class="form-success" hidden role="status">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="11" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="20" cy="20" r="4.5" fill="currentColor"/><path d="M20 2v36M2 20h36" stroke="currentColor" stroke-width="2"/></svg>
+          <p><strong>Заявка принята.</strong> Разбор придёт в течение двух рабочих дней.</p>
+        </div>
+      </form>
+
+      <div class="color-bar" aria-hidden="true" data-enter style="--d:6">
+        <span class="cb cb-c"><i>C</i></span><span class="cb cb-m"><i>M</i></span><span class="cb cb-y"><i>Y</i></span><span class="cb cb-k"><i>K</i></span>
+        <span class="cb cb-k75"><i>75</i></span><span class="cb cb-k50"><i>50</i></span><span class="cb cb-k25"><i>25</i></span>
+        <span class="cb cb-r"></span><span class="cb cb-g"></span><span class="cb cb-b"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Ink roller ticker ============ -->
+  <div class="roller" aria-hidden="true">
+    <div class="roller-track">
+      <span>Стратегия</span><span>SMM</span><span>Таргетированная реклама</span><span>Контекст</span><span>SEO</span><span>Брендинг</span><span>Сайты</span><span>Аналитика</span>
+      <span>Стратегия</span><span>SMM</span><span>Таргетированная реклама</span><span>Контекст</span><span>SEO</span><span>Брендинг</span><span>Сайты</span><span>Аналитика</span>
+    </div>
+  </div>
+
+  <!-- ============ WHY: overprint ============ -->
+  <section class="section why" id="why" aria-labelledby="why-title" data-why>
+    <div class="container why-grid">
+      <div class="why-art" aria-hidden="true">
+        <svg viewBox="0 0 520 500" class="venn">
+          <g class="venn-c" data-venn="0"><circle cx="190" cy="190" r="150" fill="#3D9FD3"/></g>
+          <g class="venn-m" data-venn="1"><circle cx="330" cy="190" r="150" fill="#D65A8A"/></g>
+          <g class="venn-y" data-venn="2"><circle cx="260" cy="310" r="150" fill="#F2D058"/></g>
+          <g class="venn-labels" font-family="Unbounded, sans-serif" font-weight="600" font-size="19">
+            <text x="105" y="150" fill="#fff">Стратегия</text>
+            <text x="318" y="150" fill="#fff">Креатив</text>
+            <text x="203" y="420" fill="#17171A">Аналитика</text>
+            <text x="212" y="248" fill="#fff" font-size="22">Заявки</text>
+          </g>
+        </svg>
+      </div>
+      <div class="why-copy">
+        <h2 class="section-title" id="why-title" data-reveal>Заявки появляются там, где краски пересекаются</h2>
+        <ul class="why-list">
+          <li data-why-item="0" style="--ink: var(--c)">
+            <h3>Стратегия</h3>
+            <p>Сначала считаем, сколько вы можете платить за клиента. Без этой цифры любая реклама — лотерея.</p>
+          </li>
+          <li data-why-item="1" style="--ink: var(--m)">
+            <h3>Креатив</h3>
+            <p>Пишем и снимаем под конкретную аудиторию. Тестируем 5–10 вариантов, оставляем те, на которые нажимают.</p>
+          </li>
+          <li data-why-item="2" style="--ink: var(--y)">
+            <h3>Аналитика</h3>
+            <p>Каждая заявка видна в отчёте: из какого канала пришла и сколько стоила. Решения принимаем по цифрам.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES: colour separations ============ -->
+  <section class="section services" id="services" aria-labelledby="services-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title" id="services-title" data-reveal>Шесть красок, из которых складываются продажи</h2>
+        <p class="section-lead">Можно взять один канал, а можно всю систему. Цены — стартовые, точную смету считаем после разбора.</p>
+      </div>
+
+      <ul class="plates" data-accordion>
+        <li class="plate" style="--ink: var(--c)">
+          <button class="plate-head" type="button" aria-expanded="false" aria-controls="plate-1">
+            <span class="plate-swatch" aria-hidden="true"></span>
+            <span class="plate-name">Стратегия и аналитика</span>
+            <span class="plate-price">от 45 000 ₽</span>
+            <span class="plate-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="plate-body" id="plate-1" role="region" hidden>
+            <div class="plate-body-inner">
+              <div class="ph plate-pic" style="--ink: var(--c)" role="img" aria-label="Фото услуги, место для изображения 600 × 600"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Фото услуги</span><small>600 × 600</small></span></div>
+              <p>Разбираем рынок, конкурентов и путь клиента. Считаем, сколько стоит заявка в каждом канале, и решаем, куда вкладывать бюджет в первую очередь.</p>
+              <ul class="ticks"><li>Анализ конкурентов и аудитории</li><li>Медиаплан на 3 месяца</li><li>Сквозная аналитика и дашборд</li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="plate" style="--ink: var(--m)">
+          <button class="plate-head" type="button" aria-expanded="false" aria-controls="plate-2">
+            <span class="plate-swatch" aria-hidden="true"></span>
+            <span class="plate-name">SMM и контент</span>
+            <span class="plate-price">от 40 000 ₽/мес</span>
+            <span class="plate-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="plate-body" id="plate-2" role="region" hidden>
+            <div class="plate-body-inner">
+              <div class="ph plate-pic" style="--ink: var(--m)" role="img" aria-label="Фото услуги, место для изображения 600 × 600"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Фото услуги</span><small>600 × 600</small></span></div>
+              <p>Ведём ВКонтакте, Telegram и другие площадки. Пишем, снимаем и монтируем сами, отвечаем подписчикам и отчитываемся каждый месяц.</p>
+              <ul class="ticks"><li>Контент-план и визуальный стиль</li><li>12–20 публикаций в месяц</li><li>Reels, клипы и сторис</li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="plate" style="--ink: var(--y)">
+          <button class="plate-head" type="button" aria-expanded="false" aria-controls="plate-3">
+            <span class="plate-swatch" aria-hidden="true"></span>
+            <span class="plate-name">Таргетированная реклама</span>
+            <span class="plate-price">от 35 000 ₽/мес</span>
+            <span class="plate-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="plate-body" id="plate-3" role="region" hidden>
+            <div class="plate-body-inner">
+              <div class="ph plate-pic" style="--ink: var(--y)" role="img" aria-label="Фото услуги, место для изображения 600 × 600"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Фото услуги</span><small>600 × 600</small></span></div>
+              <p>Запускаем рекламу во ВКонтакте, Telegram Ads и VK Рекламе. Тестируем креативы малыми бюджетами и масштабируем только то, что приносит заявки.</p>
+              <ul class="ticks"><li>Сегменты аудитории и креативы</li><li>A/B-тесты каждую неделю</li><li>Отчёт по стоимости заявки</li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="plate" style="--ink: var(--r)">
+          <button class="plate-head" type="button" aria-expanded="false" aria-controls="plate-4">
+            <span class="plate-swatch" aria-hidden="true"></span>
+            <span class="plate-name">Контекстная реклама</span>
+            <span class="plate-price">от 30 000 ₽/мес</span>
+            <span class="plate-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="plate-body" id="plate-4" role="region" hidden>
+            <div class="plate-body-inner">
+              <div class="ph plate-pic" style="--ink: var(--r)" role="img" aria-label="Фото услуги, место для изображения 600 × 600"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Фото услуги</span><small>600 × 600</small></span></div>
+              <p>Настраиваем Яндекс Директ под горячий спрос: поиск, РСЯ, ретаргетинг. Минусуем лишние запросы, чтобы бюджет не уходил на случайные клики.</p>
+              <ul class="ticks"><li>Семантика и структура кампаний</li><li>Настройка целей в Метрике</li><li>Еженедельная оптимизация ставок</li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="plate" style="--ink: var(--g)">
+          <button class="plate-head" type="button" aria-expanded="false" aria-controls="plate-5">
+            <span class="plate-swatch" aria-hidden="true"></span>
+            <span class="plate-name">SEO-продвижение</span>
+            <span class="plate-price">от 50 000 ₽/мес</span>
+            <span class="plate-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="plate-body" id="plate-5" role="region" hidden>
+            <div class="plate-body-inner">
+              <div class="ph plate-pic" style="--ink: var(--g)" role="img" aria-label="Фото услуги, место для изображения 600 × 600"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Фото услуги</span><small>600 × 600</small></span></div>
+              <p>Выводим сайт в топ Яндекса и Google по запросам, которые приводят покупателей, а не просто трафик. Работаем с текстами, технической частью и ссылками.</p>
+              <ul class="ticks"><li>Технический аудит сайта</li><li>Кластеризация запросов</li><li>Ежемесячный отчёт по позициям</li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="plate" style="--ink: var(--b)">
+          <button class="plate-head" type="button" aria-expanded="false" aria-controls="plate-6">
+            <span class="plate-swatch" aria-hidden="true"></span>
+            <span class="plate-name">Брендинг и сайты</span>
+            <span class="plate-price">от 90 000 ₽</span>
+            <span class="plate-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="plate-body" id="plate-6" role="region" hidden>
+            <div class="plate-body-inner">
+              <div class="ph plate-pic" style="--ink: var(--b)" role="img" aria-label="Фото услуги, место для изображения 600 × 600"><span class="ph-pattern" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Фото услуги</span><small>600 × 600</small></span></div>
+              <p>Логотип, фирменный стиль и сайт, на который не стыдно вести рекламу. Делаем быстро загружающиеся лендинги и сайты с формами, которые сразу попадают в CRM.</p>
+              <ul class="ticks"><li>Логотип и гайдлайн</li><li>Лендинг или многостраничный сайт</li><li>Подключение CRM и аналитики</li></ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <a class="link-ink" href="services.html">Все услуги и состав работ</a>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS: plates build the proof ============ -->
+  <section class="section process" id="process" aria-labelledby="process-title" data-process>
+    <div class="container process-grid">
+      <div class="process-copy">
+        <h2 class="section-title" id="process-title" data-reveal>Как мы работаем</h2>
+        <p class="section-lead">Каждый этап добавляет свою краску. К четвёртому картинка становится чёткой — у вас стабильный поток заявок и понятные цифры.</p>
+      </div>
+
+      <div class="process-stage" aria-hidden="true">
+        <div class="proof-sheet">
+          <span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span>
+          <svg class="proof-art" viewBox="0 0 400 500" data-proof>
+            <g class="sep sep-y" data-sep="0"><circle cx="250" cy="170" r="120" fill="url(#dot-y)"/><rect x="40" y="340" width="320" height="110" fill="url(#dot-y)"/></g>
+            <g class="sep sep-m" data-sep="1"><path d="M40 300 C 120 200, 200 400, 360 260 L 360 450 L 40 450 Z" fill="url(#dot-m)"/></g>
+            <g class="sep sep-c" data-sep="2"><circle cx="150" cy="200" r="95" fill="url(#dot-c)"/><rect x="40" y="410" width="320" height="40" fill="url(#dot-c)"/></g>
+            <g class="sep sep-k" data-sep="3">
+              <path d="M60 120 L 60 60 L 120 60" fill="none" stroke="#17171A" stroke-width="6"/>
+              <text x="40" y="490" font-family="Unbounded, sans-serif" font-weight="700" font-size="30" fill="#17171A">+ заявки</text>
+              <path d="M70 380 L 140 340 L 200 360 L 270 300 L 340 280" fill="none" stroke="#17171A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+          </svg>
+          <div class="proof-caption"><span data-proof-label>Плёнка Y: разбор</span></div>
+        </div>
+      </div>
+      <ol class="steps">
+          <li class="step is-active" data-step="0">
+            <span class="step-num" style="--ink: var(--y)">1</span>
+            <div><h3>Разбор</h3><p>Изучаем бизнес, сайт, рекламу и конкурентов. Находим, где теряются клиенты. 3–5 дней.</p></div>
+          </li>
+          <li class="step" data-step="1">
+            <span class="step-num" style="--ink: var(--m)">2</span>
+            <div><h3>Стратегия</h3><p>Выбираем каналы, считаем бюджет и цену заявки, согласуем план на три месяца.</p></div>
+          </li>
+          <li class="step" data-step="2">
+            <span class="step-num" style="--ink: var(--c)">3</span>
+            <div><h3>Запуск</h3><p>Готовим креативы, настраиваем рекламу и аналитику. Первые заявки — обычно на второй неделе.</p></div>
+          </li>
+          <li class="step" data-step="3">
+            <span class="step-num" style="--ink: var(--k)">4</span>
+            <div><h3>Рост</h3><p>Отключаем то, что не работает, усиливаем то, что приносит деньги. Отчёт каждый месяц.</p></div>
+          </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ CASES: proofs ============ -->
+  <section class="section cases" id="cases" aria-labelledby="cases-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title" id="cases-title" data-reveal>Оттиски наших проектов</h2>
+        <p class="section-lead">Демонстрационные кейсы шаблона: замените на реальные проекты агентства.</p>
+      </div>
+
+      <article class="case" data-register-scroll>
+        <a class="case-cover" href="portfolio.html" aria-label="Кейс: кофейня «Зерно», подробнее">
+          <div class="ph " style="--ink: var(--c)" role="img" aria-label="Фото кейса «Зерно», место для изображения 1200 × 900"><span class="ph-pattern" data-depth="0.5" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Фото кейса «Зерно»</span><small>1200 × 900</small></span></div>
+          <span class="case-tag">Оттиск 1 из 3</span>
+        </a>
+        <div class="case-info">
+          <p class="case-niche">Сеть кофеен в Казани, SMM и таргет</p>
+          <h3 class="case-title"><a href="portfolio.html">Кофейня «Зерно»: заказы на вынос через Telegram</a></h3>
+          <dl class="case-facts">
+            <div><dt>заявок в месяц</dt><dd>×2,4</dd></div>
+            <div><dt>цена заявки</dt><dd>−38%</dd></div>
+            <div><dt>срок</dt><dd>4 мес</dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <article class="case case-flip" data-register-scroll>
+        <a class="case-cover" href="portfolio.html" aria-label="Кейс: клиника «Ортодент», подробнее">
+          <div class="ph " style="--ink: var(--m)" role="img" aria-label="Фото кейса «Ортодент», место для изображения 1200 × 900"><span class="ph-pattern" data-depth="0.5" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Фото кейса «Ортодент»</span><small>1200 × 900</small></span></div>
+          <span class="case-tag">Оттиск 2 из 3</span>
+        </a>
+        <div class="case-info">
+          <p class="case-niche">Стоматология в Екатеринбурге, Директ и SEO</p>
+          <h3 class="case-title"><a href="portfolio.html">«Ортодент»: запись на имплантацию без перегрева бюджета</a></h3>
+          <dl class="case-facts">
+            <div><dt>записей с сайта</dt><dd>+170</dd></div>
+            <div><dt>цена записи</dt><dd>1&nbsp;900&nbsp;₽</dd></div>
+            <div><dt>срок</dt><dd>6 мес</dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <article class="case" data-register-scroll>
+        <a class="case-cover" href="portfolio.html" aria-label="Кейс: магазин «Шерсть и лён», подробнее">
+          <div class="ph " style="--ink: var(--y)" role="img" aria-label="Фото кейса «Шерсть и лён», место для изображения 1200 × 900"><span class="ph-pattern" data-depth="0.5" aria-hidden="true"></span><span class="crop crop-tl"></span><span class="crop crop-tr"></span><span class="crop crop-bl"></span><span class="crop crop-br"></span><span class="ph-label" aria-hidden="true"><svg class="ph-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg><span>Фото кейса «Шерсть и лён»</span><small>1200 × 900</small></span></div>
+          <span class="case-tag">Оттиск 3 из 3</span>
+        </a>
+        <div class="case-info">
+          <p class="case-niche">Интернет-магазин одежды, брендинг, сайт и контекст</p>
+          <h3 class="case-title"><a href="portfolio.html">«Шерсть и лён»: новый сайт и первые 1 000 заказов</a></h3>
+          <dl class="case-facts">
+            <div><dt>конверсия сайта</dt><dd>3,1%</dd></div>
+            <div><dt>ROMI</dt><dd>240%</dd></div>
+            <div><dt>срок</dt><dd>5 мес</dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <a class="btn btn-line" href="portfolio.html">Смотреть все проекты</a>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section faq" id="faq" aria-labelledby="faq-title">
+    <div class="container faq-grid">
+      <h2 class="section-title" id="faq-title" data-reveal>Что спрашивают до старта</h2>
+      <div class="faq-list" data-accordion>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-1">Какой минимальный рекламный бюджет?<span class="plate-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a plate-body" id="faq-1" role="region" hidden><div class="plate-body-inner"><p>Для таргета и контекста — от 30 000 ₽ в месяц на рекламу. С меньшей суммой тесты не наберут статистику, и решения будут случайными.</p></div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-2">Когда будут первые заявки?<span class="plate-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a plate-body" id="faq-2" role="region" hidden><div class="plate-body-inner"><p>В рекламе — обычно на 7–14 день после запуска. SEO работает дольше: заметный рост — через 3–4 месяца.</p></div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-3">Работаете по договору?<span class="plate-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a plate-body" id="faq-3" role="region" hidden><div class="plate-body-inner"><p>Да, с ИП и юрлицами, с закрывающими документами. Рекламу маркируем по закону: регистрируем креативы в ОРД.</p></div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false" aria-controls="faq-4">Можно начать с одного канала?<span class="plate-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a plate-body" id="faq-4" role="region" hidden><div class="plate-body-inner"><p>Можно. Чаще всего начинают с контекста или таргета, а через 1–2 месяца добавляют то, что усиливает уже работающий канал.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BRIEF: print job ticket ============ -->
+  <section class="section brief" id="brief" aria-labelledby="brief-title">
+    <div class="container brief-grid">
+      <div class="brief-copy">
+        <h2 class="section-title" id="brief-title" data-reveal>Расскажите о задаче</h2>
+        <p class="section-lead">Ответим в течение рабочего дня и предложим план с бюджетом. Если реклама вам пока не нужна — так и скажем.</p>
+        <ul class="brief-contacts">
+          <li><a href="tel:+79990000000">+7 999 000-00-00</a></li>
+          <li><a href="mailto:hello@privodka.ru">hello@privodka.ru</a></li>
+          <li>Пн–Пт, 10:00–19:00 по Москве</li>
+        </ul>
+      </div>
+
+      <form class="ticket" data-form novalidate aria-labelledby="brief-title">
+        <div class="ticket-row ticket-top" aria-hidden="true">
+          <span>Заказ-наряд</span><span>№ <span data-ticket-no>0001</span></span>
+        </div>
+        <div class="field">
+          <label for="b-name">Как вас зовут</label>
+          <input id="b-name" name="name" type="text" autocomplete="name" required>
+          <p class="field-error" hidden>Напишите имя, чтобы мы знали, как к вам обращаться.</p>
+        </div>
+        <div class="field-pair">
+          <div class="field">
+            <label for="b-phone">Телефон</label>
+            <input id="b-phone" name="phone" type="tel" autocomplete="tel" placeholder="+7 900 000-00-00" required data-phone>
+            <p class="field-error" hidden>Проверьте номер: нужно 11 цифр.</p>
+          </div>
+          <div class="field">
+            <label for="b-company">Компания или сайт</label>
+            <input id="b-company" name="company" type="text" autocomplete="organization">
+          </div>
+        </div>
+        <fieldset class="field chips">
+          <legend>Что нужно</legend>
+          <label><input type="checkbox" name="need" value="smm"><span>SMM</span></label>
+          <label><input type="checkbox" name="need" value="target"><span>Таргет</span></label>
+          <label><input type="checkbox" name="need" value="context"><span>Контекст</span></label>
+          <label><input type="checkbox" name="need" value="seo"><span>SEO</span></label>
+          <label><input type="checkbox" name="need" value="site"><span>Сайт и бренд</span></label>
+          <label><input type="checkbox" name="need" value="unknown"><span>Пока не знаю</span></label>
+        </fieldset>
+        <div class="field">
+          <label for="b-msg">Задача в двух словах</label>
+          <textarea id="b-msg" name="message" rows="3" placeholder="Например: мало заявок с сайта, хотим запустить рекламу в Telegram"></textarea>
+        </div>
+        <label class="check">
+          <input type="checkbox" name="consent" required>
+          <span class="check-box" aria-hidden="true"></span>
+          <span class="check-text">Даю <a href="consent.html">согласие на обработку персональных данных</a> и принимаю <a href="privacy.html">политику конфиденциальности</a></span>
+        </label>
+        <p class="field-error consent-error" hidden>Без согласия мы не можем принять заявку.</p>
+        <button class="btn btn-magenta btn-wide" type="submit">Отправить заявку</button>
+        <div class="form-success" hidden role="status">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="11" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="20" cy="20" r="4.5" fill="currentColor"/><path d="M20 2v36M2 20h36" stroke="currentColor" stroke-width="2"/></svg>
+          <p><strong>Заявка отправлена.</strong> Перезвоним в течение рабочего дня.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="logo logo-light" href="index.html" aria-label="Приводка — на главную">
+        <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="11" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="20" cy="20" r="4.5" fill="currentColor"/><path d="M20 2v36M2 20h36" stroke="currentColor" stroke-width="2.5"/></svg>
+        <span class="logo-word">Приводка</span>
+      </a>
+      <p>Маркетинговое агентство полного цикла. Работаем с бизнесом по всей России.</p>
+    </div>
+    <nav class="footer-col" aria-label="Разделы сайта">
+      <h2>Разделы</h2>
+      <ul>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="portfolio.html">Портфолио</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="about.html#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+    <nav class="footer-col" aria-label="Документы">
+      <h2>Документы</h2>
+      <ul>
+        <li><a href="privacy.html">Политика конфиденциальности</a></li>
+        <li><a href="consent.html">Согласие на обработку данных</a></li>
+        <li><a href="cookies.html">Политика cookie</a></li>
+        <li><button class="footer-link-btn" type="button" data-cookie-settings>Настройки cookie</button></li>
+      </ul>
+    </nav>
+    <div class="footer-col">
+      <h2>Контакты</h2>
+      <ul>
+        <li><a href="tel:+79990000000">+7 999 000-00-00</a></li>
+        <li><a href="mailto:hello@privodka.ru">hello@privodka.ru</a></li>
+        <li>Москва, ул. Примерная, 1</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-legal">
+    <p><span>ООО «Приводка»</span> <span>ИНН 0000000000</span> <span>ОГРН 0000000000000</span></p>
+    <p>© <span data-year>2026</span> Приводка. Сайт-шаблон, данные компании условные.</p>
+  </div>
+</footer>
+
+<!-- Cookie notice (152-ФЗ): analytics runs only after consent -->
+<div class="cookie" data-cookie role="region" aria-label="Уведомление о cookie" hidden>
+  <p>Мы используем cookie. Необходимые нужны для работы сайта, аналитические помогают понять, какие страницы полезны. Аналитика включится только с вашего согласия. Подробнее — в <a href="cookies.html">политике cookie</a>.</p>
+  <div class="cookie-actions">
+    <button class="btn btn-ink" type="button" data-cookie-accept>Принять все</button>
+    <button class="btn btn-line" type="button" data-cookie-necessary>Только необходимые</button>
+  </div>
+</div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
