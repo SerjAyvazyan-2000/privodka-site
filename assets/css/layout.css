@@ -150,5 +150,7 @@
   display: flex; flex-wrap: wrap; gap: 0.5rem 2rem; justify-content: space-between;
   font-size: var(--fs-small); color: #A3A59E;
 }
-.footer-legal span + span { margin-left: 1rem; }
+.footer-legal p:first-child { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; }
 .site-footer ::selection { background: var(--m); color: #fff; }
+.footer-credit a { color: var(--paper); text-decoration: underline; text-decoration-color: rgba(243,244,241,.4); text-underline-offset: 0.25em; transition: color var(--t-fast), text-decoration-color var(--t-fast); }
+.footer-credit a:hover { color: var(--y); text-decoration-color: var(--y); }
